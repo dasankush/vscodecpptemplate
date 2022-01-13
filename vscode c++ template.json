@@ -1,0 +1,482 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	
+
+
+
+	// header files
+	"bits ankush": {
+		"prefix": "hbits",
+		"body": [
+		  "#include <bits/stdc++.h>"
+		],
+		"description": "bits ankush"
+	},
+	"iostream": {
+		"prefix": "hiostream",
+		"body": [
+		"#include <iostream>"
+		],
+		"description": "iostream"
+	},
+	"vector header": {
+		"prefix": "hvector",
+		"body": [
+		  "#include <vector>"
+		],
+		"description": "vector header"
+	},
+	"queue header": {
+		"prefix": "hqueue",
+		"body": [
+		  "#include <queue>"
+		],
+		"description": "queue header"
+	},
+	"stack header": {
+		"prefix": "hstack",
+		"body": [
+		  "#include <stack>"
+		],
+		"description": "stack header"
+	},
+	"set header": {
+		"prefix": "hset",
+		"body": [
+		  "#include <set> "
+		],
+		"description": "set header"
+	},
+	"unordered set header": {
+		"prefix": "huoset",
+		"body": [
+		  "#include <unordered_set>"
+		],
+		"description": "unordered set header"
+	},
+	"map header": {
+		"prefix": "hmap",
+		"body": [
+		  "#include <map> "
+		],
+		"description": "map header"
+	}, 
+	"unordered map header": {
+		"prefix": "huomap",
+		"body": [
+		  "#include <unordered_map>"
+		],
+		"description": "unordered map header"
+	},
+	"priority queue header": {
+		"prefix": "hpqueue",
+		"body": [
+		  "#include <priority_queue>"
+		],
+		"description": "priority queue header"
+	},
+	"dqueue header": {
+		"prefix": "hdqueue",
+		"body": [
+		  "#include <deque>"
+		],
+		"description": "dqueue header"
+	},
+	"algorithm header": {
+		"prefix": "halgo",
+		"body": [
+			"#include <algorithm>"
+		],
+		"description": "algorithm header"
+	},
+	"string header": {
+	"prefix": "hstring",
+	"body": [
+		"#include <string>"
+	],
+	"description": "string header"
+	},
+
+
+
+
+
+
+
+
+
+
+
+	//input and output
+	"cout statement": {
+		"prefix": "out",
+		"body": [
+		  "cout<< $1 <<endl;",
+		  "$2"
+		],
+		"description": "cout statement"
+	  },
+	"cin statement": {
+	"prefix": "in",
+	"body": [
+		"cin>> $1 ;",
+		"$2"
+	],
+	"description": "cin statement"
+	},
+	"array input statement": {
+		"prefix": "arrin",
+		"body": [
+		  "for(int i=0; i<n ; i++){",
+		  "  cin>>${1:arr}[i];",
+		  "}",
+		  "$2"
+		],
+		"description": "array input statement"
+	},
+	"array output statement": {
+		"prefix": "arrout",
+		"body": [
+		  "for(int i=0; i<n ; i++){",
+		  "  cout<<${1:arr}[i]<<\" \";",
+		  "}",
+		  "$2"
+		],
+		"description": "array output statement"
+	},
+	"array input output statement": {
+		"prefix": "arrinout",
+		"body": [
+		  "for(int i=0; i<n ; i++){",
+		  "  cin>>${1:arr}[i];",
+		  "}",
+		  "for(int i=0; i<n ; i++){",
+		  "  cout<<${3:arr}[i]<<\" \";",
+		  "}",
+		  "$4"
+		],
+		"description": "array input output statement"
+	},
+	"array char input output statement": {
+		"prefix": "arrchinout",
+		"body": [
+		  "char ${1:ch}[n];",
+		  "for(int i=0; i<n ; i++){",
+		  "  cin>>${2:ch}[i];",
+		  "}",
+		  "for(int i=0; i<n ; i++){",
+		  "  cout<<${3:ch}[i]<<\" \";",
+		  "}",
+		  "$4"
+		],
+		"description": "array char input output statement"
+	},
+	"array int input output statement": {
+		"prefix": "arrintinout",
+		"body": [
+		  "int ${1:arr}[n];",
+		  "for(int i=0; i<n ; i++){",
+		  "  cin>>${2:arr}[i];",
+		  "}",
+		  "for(int i=0; i<n ; i++){",
+		  "  cout<<${3:arr}[i]<<\" \";",
+		  "}",
+		  "$4"
+		],
+		"description": "array int input output statement"
+	},
+
+
+
+
+
+
+	//aggregate functions
+	"max of 2 num statement": {
+		"prefix": "maxst",
+		"body": [
+		  "max( $1 , $2 )"
+		],
+		"description": "max of 2 num statement"
+	  },
+	"sqrt statement": {
+	"prefix": "sqrtst",
+	"body": [
+		"sqrt( $1 )$2"
+	],
+	"description": "sqrt statement"
+	},
+	"log to base e (x) statement": {
+	"prefix": "logest",
+	"body": [
+		"log( $1 )$2"
+	],
+	"description": "log to base e (x) statement"
+	},
+	"log to base 10 (x) statement": {
+	"prefix": "logtenst",
+	"body": [
+		"log10( $1 )$2"
+	],
+	"description": "log to base 10 (x) statement"
+	},
+	"log to base 2 (x) statement": {
+	"prefix": "logtwost",
+	"body": [
+		"log2( $1 )$2"
+	],
+	"description": "log to base 2 (x) statement"
+	},
+	"sin(x) statement": {
+	"prefix": "sinst",
+	"body": [
+		"sin( $1 )$2"
+	],
+	"description": "sin(x) statement"
+	},
+	"cos(x) statement": {
+	"prefix": "cosst",
+	"body": [
+		"cos( $1 )$2"
+	],
+	"description": "cos(x) statement"
+	},
+	"tan(x) statement": {
+	"prefix": "tanst",
+	"body": [
+		"tan( $1 )$2"
+	],
+	"description": "tan(x) statement"
+	},
+	"inverse sin(x) statement": {
+	"prefix": "asinst",
+	"body": [
+		"asin( $1 )$2"
+	],
+	"description": "inverse sin(x) statement"
+	},
+	"inverse cos(x) statement": {
+	"prefix": "acosst",
+	"body": [
+		"acos( $1 )$2"
+	],
+	"description": "inverse cos(x) statement"
+	},
+	"inverse tan(x) statement": {
+	"prefix": "atanst",
+	"body": [
+		"atan( $1 )$2"
+	],
+	"description": "inverse tan(x) statement"
+	},
+
+
+
+
+
+	  //string functions
+	"to upper statement": {
+	"prefix": "toupst",
+	"body": [
+		"toupper($1)$2"
+	],
+	"description": "to upper statement"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//LOOPS
+    "for++ ankush": {
+		"prefix": "for",
+		"body": [
+		  "for(int i=0; i<${1:n} ; i++){",
+		  "  $2",
+		  "}"
+		],
+		"description": "for++ ankush"
+	  }, 
+	"forr ankush": {
+	"prefix": "forr",
+	"body": [
+		"for(int i=n; i>${1:0} ; i--){",
+		"  $2",
+		"}"
+	],
+	"description": "forr ankush"
+	},
+	"while ankush": {
+	"prefix": "while",
+	"body": [
+		"while(${1}){",
+		"  ",
+		"}"
+	],
+	"description": "while ankush"
+	},
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	//conditions statements
+	"if statement": {
+	"prefix": "ifst",
+	"body": [
+		"if( $1 ){",
+		"  $2;",
+		"}",
+		"$3"
+	],
+	"description": "if statement"
+	},
+	"else statement": {
+	"prefix": "elsest",
+	"body": [
+		"else{",
+		"  $1;",
+		"}",
+		"$2"
+	],
+	"description": "else statement"
+	},
+	"if else statement": {
+		"prefix": "ifelsest",
+		"body": [
+		  "if( $1 ){",
+		  "  $2;",
+		  "}",
+		  "else{",
+		  "  $3;",
+		  "}",
+		  "$4"
+		],
+		"description": "if else statement"
+	},
+	"if elseif else statement": {
+	"prefix": "ifelifst",
+	"body": [
+		" if( $1 ){",
+		"  $2;",
+		"}",
+		"else if( $3 ){",
+		"  $4;",
+		"}",
+		"else{",
+		"  $5;",
+		"}",
+		"$6"
+	],
+	"description": "if elseif else statement"
+	},
+	"else if statement": {
+	"prefix": "elifst",
+	"body": [
+		"else if( ${1} ){",
+		"    $2",
+		"}",
+		"$3"
+	],
+	"description": "else if statement"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+	//templates
+	"cp template": {
+		"prefix": "cp",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "using namespace std;",
+		  "",
+		  "void solve();",
+		  "",
+		  "int main(){",
+		  "    ${1}",
+		  "    solve();",
+		  "    return 0;",
+		  "}",
+		  "",
+		  "void solve() {",
+		  "",
+		  "}"
+		],
+		"description": "cp template"
+	},
+	"standard template": {
+	"prefix": "standard template",
+	"body": [
+		"#include <iostream>",
+		"using namespace std;",
+		"",
+		"int main(){",
+		"    int a,b,n;",
+		"    cin>>a>>b;",
+		"    $1",
+		"    return 0;",
+		"}"
+	],
+	"description": "standard template"
+	}
+
+
+
+
+
+
+
+
+}
