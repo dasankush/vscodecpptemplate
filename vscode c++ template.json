@@ -17,95 +17,108 @@
 
 
 
-	// header files
+	//header files
 	"bits ankush": {
 		"prefix": "hbits",
 		"body": [
-		  "#include <bits/stdc++.h>"
+		  "#include <bits/stdc++.h>",
+		  "$1"
 		],
 		"description": "bits ankush"
 	},
 	"iostream": {
 		"prefix": "hiostream",
 		"body": [
-		"#include <iostream>"
+		"#include <iostream>",
+		"$1"
 		],
 		"description": "iostream"
 	},
 	"vector header": {
 		"prefix": "hvector",
 		"body": [
-		  "#include <vector>"
+		  "#include <vector>",
+		  "$1"
 		],
 		"description": "vector header"
 	},
 	"queue header": {
 		"prefix": "hqueue",
 		"body": [
-		  "#include <queue>"
+		  "#include <queue>",
+		  "$1"
 		],
 		"description": "queue header"
 	},
 	"stack header": {
 		"prefix": "hstack",
 		"body": [
-		  "#include <stack>"
+		  "#include <stack>",
+		  "$1"
 		],
 		"description": "stack header"
 	},
 	"set header": {
 		"prefix": "hset",
 		"body": [
-		  "#include <set> "
+		  "#include <set> ",
+		  "$1"
 		],
 		"description": "set header"
 	},
 	"unordered set header": {
 		"prefix": "huoset",
 		"body": [
-		  "#include <unordered_set>"
+		  "#include <unordered_set>",
+		  "$1"
 		],
 		"description": "unordered set header"
 	},
 	"map header": {
 		"prefix": "hmap",
 		"body": [
-		  "#include <map> "
+		  "#include <map> ",
+		  "$1"
 		],
 		"description": "map header"
 	}, 
 	"unordered map header": {
 		"prefix": "huomap",
 		"body": [
-		  "#include <unordered_map>"
+		  "#include <unordered_map>",
+		  "$1"
 		],
 		"description": "unordered map header"
 	},
 	"priority queue header": {
 		"prefix": "hpqueue",
 		"body": [
-		  "#include <priority_queue>"
+		  "#include <priority_queue>",
+		  "$1"
 		],
 		"description": "priority queue header"
 	},
 	"dqueue header": {
 		"prefix": "hdqueue",
 		"body": [
-		  "#include <deque>"
+		  "#include <deque>",
+		  "$1"
 		],
 		"description": "dqueue header"
 	},
 	"algorithm header": {
 		"prefix": "halgo",
 		"body": [
-			"#include <algorithm>"
+			"#include <algorithm>",
+			"$1"
 		],
 		"description": "algorithm header"
 	},
 	"string header": {
 	"prefix": "hstring",
 	"body": [
-		"#include <string>"
+		"#include <string>",
+		"$1"
 	],
 	"description": "string header"
 	},
@@ -352,6 +365,7 @@
 
 
 	
+	
 
 
 
@@ -423,8 +437,539 @@
 	],
 	"description": "else if statement"
 	},
-
-
+	"switch statement with 15 cases": {
+		"prefix": "switch15",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "case ${20:#10}:",
+		  "    ${21:statement};",
+		  "    break;",
+		  "case ${22:#11}:",
+		  "    ${23:statement};",
+		  "    break;",
+		  "case ${24:#12}:",
+		  "    ${25:statement};",
+		  "    break;",
+		  "case ${26:#13}:",
+		  "    ${27:statement};",
+		  "    break;",
+		  "case ${28:#14}:",
+		  "    ${29:statement};",
+		  "    break;",
+		  "case ${30:#15}:",
+		  "    ${31:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${32:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 15 cases"
+	},
+	"switch statement with 14 cases": {
+		"prefix": "switch14",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "case ${20:#10}:",
+		  "    ${21:statement};",
+		  "    break;",
+		  "case ${22:#11}:",
+		  "    ${23:statement};",
+		  "    break;",
+		  "case ${24:#12}:",
+		  "    ${25:statement};",
+		  "    break;",
+		  "case ${26:#13}:",
+		  "    ${27:statement};",
+		  "    break;",
+		  "case ${28:#14}:",
+		  "    ${29:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${30:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 14 cases"
+	},
+	"switch statement with 13 cases": {
+		"prefix": "switch13",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "case ${20:#10}:",
+		  "    ${21:statement};",
+		  "    break;",
+		  "case ${22:#11}:",
+		  "    ${23:statement};",
+		  "    break;",
+		  "case ${24:#12}:",
+		  "    ${25:statement};",
+		  "    break;",
+		  "case ${26:#13}:",
+		  "    ${27:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${28:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 13 cases"
+	},
+	"switch statement with 12 cases": {
+		"prefix": "switch12",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "case ${20:#10}:",
+		  "    ${21:statement};",
+		  "    break;",
+		  "case ${22:#11}:",
+		  "    ${23:statement};",
+		  "    break;",
+		  "case ${24:#12}:",
+		  "    ${25:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${26:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 12 cases"
+	},
+	"switch statement with 11 cases": {
+		"prefix": "switch11",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "case ${20:#10}:",
+		  "    ${21:statement};",
+		  "    break;",
+		  "case ${22:#11}:",
+		  "    ${23:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${24:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 11 cases"
+	},
+	"switch statement with 10 cases": {
+		"prefix": "switch10",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "case ${20:#10}:",
+		  "    ${21:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${22:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 10 cases"
+	},
+	"switch statement with 9 cases": {
+		"prefix": "switch9",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "case ${18:#9}:",
+		  "    ${19:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${20:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 9 cases"
+	},
+	"switch statement with 8 cases": {
+		"prefix": "switch8",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement};",
+		  "    break;",
+		  "case ${16:#8}:",
+		  "    ${17:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${18:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 8 cases"
+	},
+	"switch statement with 7 cases": {
+		"prefix": "switch7",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement}",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement}",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement}",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement}",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement}",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement}",
+		  "    break;",
+		  "case ${14:#7}:",
+		  "    ${15:statement}",
+		  "    break;",
+		  "default:",
+		  "    ${16:statement}",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 7 cases"
+	},
+	"switch statement with 6 cases": {
+		"prefix": "switch6",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "case ${12:#6}:",
+		  "    ${13:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${14:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 6 cases"
+	},
+	"switch statement with 5 cases": {
+		"prefix": "switch5",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "case ${10:#5}:",
+		  "    ${11:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${12:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 5 cases"
+	},	
+	"switch statement with 4 cases": {
+		"prefix": "switch4",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "case ${8:#4}:",
+		  "    ${9:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${10:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 4 cases"
+	},
+	"switch statement with 3 cases": {
+		"prefix": "switch3",
+		"body": [
+		  "int $1;",
+		  "cin>>$1;",
+		  "switch ($1)",
+		  "{",
+		  "case ${2:#1}:",
+		  "    ${3:statement};",
+		  "    break;",
+		  "case ${4:#2}:",
+		  "    ${5:statement};",
+		  "    break;",
+		  "case ${6:#3}:",
+		  "    ${7:statement};",
+		  "    break;",
+		  "default:",
+		  "    ${8:statement};",
+		  "    break;",
+		  "}"
+		],
+		"description": "switch statement with 3 cases"
+	},
 
 
 
