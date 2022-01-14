@@ -135,7 +135,7 @@
 
 	//input and output
 	"cout statement": {
-		"prefix": "out",
+		"prefix": "outst",
 		"body": [
 		  "cout<< $1 <<endl;",
 		  "$2"
@@ -143,7 +143,7 @@
 		"description": "cout statement"
 	  },
 	"cin statement": {
-	"prefix": "in",
+	"prefix": "inst",
 	"body": [
 		"cin>> $1 ;",
 		"$2"
@@ -219,12 +219,61 @@
 
 	//aggregate functions
 	"max of 2 num statement": {
-		"prefix": "maxst",
+		"prefix": "max2",
 		"body": [
 		  "max( $1 , $2 )"
 		],
 		"description": "max of 2 num statement"
-	  },
+	},
+	"max of 3 ": {
+		"prefix": "max3",
+		"body": [
+		  "max(max( ${1:#1} , ${2:#2} ), ${3:#3} )"
+		],
+		"description": "max of 3 "
+	},
+	"max of 4": {
+		"prefix": "max4",
+		"body": [
+		  "max(max(max( ${1:#1} , ${2:#2} ), ${3:#3} ), ${4:#4} )"
+		],
+		"description": "max of 4"
+	},
+	"max of 5": {
+		"prefix": "max5",
+		"body": [
+		  "max(max(max(max( ${1:#1} , ${2:#2} ), ${3:#3} ), ${4:#4} ), ${5:#5} )"
+		],
+		"description": "max of 5"
+	},
+	"sum of 2 numbers": {
+		"prefix": "sum2",
+		"body": [
+		  "( ${1:#1} + ${2:#2} )"
+		],
+		"description": "sum of 2 numbers"
+	},
+	"sum of 3 numbers": {
+		"prefix": "sum3",
+		"body": [
+		  "( ${1:#1} + ${2:#2} + ${3:#3} )"
+		],
+		"description": "sum of 3 numbers"
+	},
+	"sum of 4 numbers": {
+		"prefix": "sum4",
+		"body": [
+		  "( ${1:#1} + ${2:#2} + ${3:#3} + ${4:#4} )"
+		],
+		"description": "sum of 4 numbers"
+	},
+	"sum of 5 numbers": {
+		"prefix": "sum5",
+		"body": [
+		  "( ${1:#1} + ${2:#2} + ${3:#3} + ${4:#4} + ${5:#5} )"
+		],
+		"description": "sum of 5 numbers"
+	},
 	"sqrt statement": {
 	"prefix": "sqrtst",
 	"body": [
@@ -359,6 +408,16 @@
 		"}"
 	],
 	"description": "while ankush"
+	},
+	"do while loop": {
+		"prefix": "dowhilest",
+		"body": [
+		  "do",
+		  "{",
+		  "    ${2:statement}",
+		  "} while (${1:condition});"
+		],
+		"description": "do while loop"
 	},
 
 
