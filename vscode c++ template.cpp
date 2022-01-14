@@ -118,6 +118,486 @@ else if(  ){
     
 }
 
+//switch with 3 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 4 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 5 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 6 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 7 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement
+    break;
+case #2:
+    statement
+    break;
+case #3:
+    statement
+    break;
+case #4:
+    statement
+    break;
+case #5:
+    statement
+    break;
+case #6:
+    statement
+    break;
+case #7:
+    statement
+    break;
+default:
+    statement
+    break;
+}
+//switch with 8 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 9 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 10 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+case #10:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 11 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+case #10:
+    statement;
+    break;
+case #11:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 12 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+case #10:
+    statement;
+    break;
+case #11:
+    statement;
+    break;
+case #12:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 13 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+case #10:
+    statement;
+    break;
+case #11:
+    statement;
+    break;
+case #12:
+    statement;
+    break;
+case #13:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 14 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+case #10:
+    statement;
+    break;
+case #11:
+    statement;
+    break;
+case #12:
+    statement;
+    break;
+case #13:
+    statement;
+    break;
+case #14:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+//switch with 15 cases
+int ;
+cin>>;
+switch ()
+{
+case #1:
+    statement;
+    break;
+case #2:
+    statement;
+    break;
+case #3:
+    statement;
+    break;
+case #4:
+    statement;
+    break;
+case #5:
+    statement;
+    break;
+case #6:
+    statement;
+    break;
+case #7:
+    statement;
+    break;
+case #8:
+    statement;
+    break;
+case #9:
+    statement;
+    break;
+case #10:
+    statement;
+    break;
+case #11:
+    statement;
+    break;
+case #12:
+    statement;
+    break;
+case #13:
+    statement;
+    break;
+case #14:
+    statement;
+    break;
+case #15:
+    statement;
+    break;
+default:
+    statement;
+    break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 //templated statements
 #include <bits/stdc++.h>
 using namespace std;
@@ -147,3 +627,16 @@ int main(){
 }
 
 //standard template
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a,b,n;
+    cin>>a>>b;
+    
+    return 0;
+}
+
+
+
+
